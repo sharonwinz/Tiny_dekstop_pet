@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="UTF-8"><title>Tiny Pet Settings</title><link rel="stylesheet" href="settings.css"></head>
+<body><main><h1>🐾 Tiny Pet Settings</h1><section id="form">
+<label><input id="enabled" type="checkbox"> Enable pet</label>
+<label>Visit frequency <select id="visitMinutes"><option value="5">5 min</option><option value="10">10 min</option><option value="15">15 min</option><option value="30">30 min</option><option value="60">1 hour</option></select></label>
+<label>Water reminder <select id="waterMinutes"><option value="30">30 min</option><option value="60">1 hour</option><option value="90">90 min</option><option value="120">2 hours</option><option value="0">Off</option></select></label>
+<label><input id="checkIns" type="checkbox"> Check-ins on</label>
+<label><input id="sound" type="checkbox"> Sound on</label>
+<label>Animation speed <input id="animationSpeed" type="range" min=".5" max="2" step=".1"></label>
+<label>Pet size <input id="petSize" type="range" min="180" max="380" step="10"></label>
+<label><input id="aiChat" type="checkbox"> AI chat</label>
+<label>OpenAI API key <input id="apiKey" type="password" placeholder="Optional"></label>
+<label><input id="launchOnStartup" type="checkbox"> Launch when computer starts</label>
+<label><input id="alwaysOnTop" type="checkbox"> Always on top</label>
+<h2>Quiet mode</h2><div class="buttons"><button data-pause="30">Pause 30 min</button><button data-pause="60">Pause 1 hour</button><button id="tomorrow">Pause until tomorrow</button><button id="resume">Resume</button></div>
+<button id="save">Save settings</button><p id="status"></p></section></main><script src="settings-renderer.js"></script></body></html>

@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="UTF-8"><title>Pet</title><link rel="stylesheet" href="pet.css"></head>
+<body><div id="stage">
+  <div id="bubble"></div>
+  <div id="pet" aria-label="desktop pet">
+    <img src="../assets/pet.png" draggable="false">
+    <div class="shadow"></div>
+  </div>
+  <div id="chat" class="hidden">
+    <div class="chat-head"><span>Tiny Pet</span><button id="closeChat">×</button></div>
+    <div id="messages"></div>
+    <div class="chat-input"><input id="input" placeholder="Say something…"><button id="send">➤</button></div>
+  </div>
+</div><script src="pet-renderer.js"></script></body></html>

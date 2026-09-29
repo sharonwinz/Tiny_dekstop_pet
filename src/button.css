@@ -1,0 +1,1 @@
+html,body{margin:0;background:transparent;width:100%;height:100%;overflow:hidden}#btn{width:54px;height:54px;border-radius:50%;border:2px solid #4c3838;background:#fff;box-shadow:0 4px 12px rgba(0,0,0,.2);overflow:hidden;cursor:grab}#btn:active{cursor:grabbing}#btn img{width:100%;height:100%;object-fit:cover;object-position:center 25%}

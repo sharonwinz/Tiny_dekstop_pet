@@ -1,0 +1,15 @@
+{
+  "name": "tiny-desktop-pet",
+  "version": "1.0.0",
+  "description": "A lightweight animated desktop AI pet for Windows and macOS.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "validate": "node --check src/main.js && node --check src/preload.js && node --check src/pet-renderer.js && node --check src/button-renderer.js && node --check src/settings-renderer.js",
+    "bring-on-screen": "node tools/bring-on-screen.js"
+  },
+  "devDependencies": {
+    "electron": "^38.2.0"
+  }
+}
